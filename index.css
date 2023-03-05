@@ -2,12 +2,16 @@
     color: darkblue;
     font-size: 15px;
     /* transition: color 0.5s, font-size 1s; */
-    transition: all 0.5s;
+    /* transition: all 0.5s; */
+    transition-property:  all;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in;
 }
 
 .heading:hover{
-    /* color: brown;
-    font-size: 25px; */
+    /* color: brown; */
+    font-size: 25px;
     color: green;
-    letter-spacing: 10px;
+    /* letter-spacing: 10px; */
 }
